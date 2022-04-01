@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+body{
+   
+    font-family: 'Merienda One', cursive;
+   /* font-family: Arial, Helvetica;*/
+    background-color: #e8e8e8;
+
+}
+
+
+.menu{
+    /* list-style: none -sirve para
+    quitar la viñetas de la lista*/
+    list-style: none;
+
+    /* Padding -Espacio de relleno requerido
+    por todos los elementos */
+     padding: 0;
+    
+     /* background  -Da un color 
+     de fondo (menu)  */
+     background: #092327;
+     
+     /*  Especifica la anchura del area
+      de contenido de un elemento*/
+     width: 90%;
+
+     /* sobreecribe el valor de Width 
+     o impide que el valor de de Width se  mas 
+     largo que el valor especificado en max-Width*/
+     max-width: 1000px;
+
+     /* Margin - Establece los margenes de los
+     cuatro lados de elemento */
+     margin: auto;
+     
+}
+
+.menu li a{
+
+    /* text-decoration -para poner texto subrrayado
+    por ejemplo  */
+    text-decoration: none;
+    
+    /* color de texto (lista) */
+    color: white;
+
+    /* Espacio de relleno */
+    padding: 20px;
+
+    /* display - visualizacion interna o externa */
+    display: block;
+     
+}
+
+.menu li{
+
+    /* display: inline-block -
+    Crea cajas de bloque en linea 
+    y de forma simultanea */
+    display: inline-block;
+
+    /* alinea texto a la izquierda */
+    text-align: center;
+
+}
+
+
+.menu li a:hover{
+     
+    /* Fondo de enlace */
+    background: #ef8354;
+
+    color: red;
+}
+
+
